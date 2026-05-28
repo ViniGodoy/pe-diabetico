@@ -13,8 +13,11 @@ Pesquisadoras:
 - Valéria Machado Ramalho
 
 Orientação de:
-- Rosenilda Rodrigues dos Santos
-- Ana Rotilia Erzinger 
+- Prof. Dra. Rosenilda Rodrigues dos Santos
+- Prof. Dra. Ana Rotilia Erzinger 
+
+Programador:
+- Prof. Msc. Vinícius Godoy de Mendonça
 
 ## Propósito e Funcionalidades
 
@@ -70,7 +73,7 @@ pip install pandas scipy matplotlib numpy
 Com o arquivo `respostas.csv` posicionado no mesmo diretório do script, execute o comando:
 
 ```bash
-python nome_do_seu_script.py
+python pe_diabetico.py
 
 ```
 

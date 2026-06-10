@@ -149,9 +149,9 @@ ax1.scatter(alunos, antes, color='#1f77b4', s=100, edgecolor='black', zorder=3)
 ax1.axhline(mean_a, color='red', linestyle='--', label=f'Média: {mean_a:.1f}')
 ax1.fill_between([0, 15], mean_a - std_a, mean_a + std_a, color='red', alpha=0.1, label=f'Desvio Padrão: ±{std_a:.1f}')
 
-ax1.set_title('Questão 8 - Antes')
-ax1.set_xlabel('Aluno (Acertos)')
-ax1.set_ylabel('Valor')
+ax1.set_title('Antes da intervenção')
+ax1.set_xlabel('Questionário')
+ax1.set_ylabel('Total de acertos')
 ax1.set_xlim(0.5, 14.5)
 
 # Normalização do eixo Y para abranger os limites de ambos os arrays
@@ -172,8 +172,8 @@ ax2.scatter(alunos, depois, color='#2ca02c', s=100, edgecolor='black', zorder=3)
 ax2.axhline(mean_d, color='red', linestyle='--', label=f'Média: {mean_d:.1f}')
 ax2.fill_between([0, 15], mean_d - std_d, mean_d + std_d, color='red', alpha=0.1, label=f'Desvio Padrão: ±{std_d:.1f}')
 
-ax2.set_title('Questão 8 - Depois')
-ax2.set_xlabel('Aluno (Acertos)')
+ax2.set_title('Depois da Intervenção')
+ax2.set_xlabel('Questionário')
 ax2.set_xlim(0.5, 14.5)
 
 ax2.grid(True, linestyle='--', alpha=0.6, zorder=0)
